@@ -1,4 +1,4 @@
-import {useState, useEffect, useContext} from 'react'
+import {useContext} from 'react'
 import imgLogin from "../assets/Apple-Innovation-Event-banner.jpeg"
 import { AuthContext } from '../context/authContext'
 
@@ -20,7 +20,7 @@ export default function LoginView() {
             </div>
             <div className="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
                 <div className="text-center">
-                    <h2>Ingresa!</h2>
+                    <h2>Bienvenido</h2>
                     <button className="btn btn-danger btn-lg" onClick={signIn}>
                         <i classname="fab fa-google me-2"/>
                         Ingresa con google

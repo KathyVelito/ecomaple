@@ -2,7 +2,6 @@ import { useState, useContext } from "react";
 import { CarritoContext } from "../context/carritoContext";
 import { useForm } from "react-hook-form";
 import { MapContainer, TileLayer, Marker, useMapEvents } from "react-leaflet"
-import L from "leaflet"
 
 export default function CheckoutView() {
     const [marcador, setMarcador] = useState([-12.0433, -77.0283])

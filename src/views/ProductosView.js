@@ -55,7 +55,7 @@ export default function ProductosView() {
                     </h1>
                     <div className="row my-2">
                        <div className="col-sm-12 col-md-6">
-                           <h5>Filtrar Por precio</h5>
+                           <h5>Filtrar por precio</h5>
                            <Slider
                                 value={filtroPrecio}
                                 onChange={manejarPrecio}
